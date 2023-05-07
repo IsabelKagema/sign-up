@@ -1,0 +1,124 @@
+
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+   
+  
+background-size: cover;
+    background-image:url("https://media1.popsugar-assets.com/files/thumbor/Czb9sFisENQH64m6XR9O62qtPsU/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2021/01/12/055/n/1922507/4bc2eae07150a62f_pawel-czerwinski-2PN18U8CKi0-unsplash/i/Valentine-Day-Wallpaper-Pastel-Marble-Pink.jpg");
+    background-repeat: no-repeat;
+  }
+  .learn h1{
+    font-size: 2.7rem;
+  }
+  .learn p{
+    line-height: 1.4rem;
+  }
+  .container{
+    padding: 4rem 0;
+    display: flex;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .wrapper{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background:white;
+    padding: 34px;
+    border-radius: 6px;
+   
+  }
+  .form-container{
+
+  }
+  .offer{
+    padding:8px 6px;
+    border-radius:10px;
+    text-align: center;
+    background: rgb(50, 50, 119);
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+  }
+  .offer:hover{
+    background: rgb(1, 94, 21);
+  }
+  
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input-box{
+  width: 96%;
+}
+.input-box input{
+  height: 52px;
+  margin: 18px 0;
+  width: 100%;
+  border-radius: 8px;
+  border:solid 1px #808080;
+  padding:0 8px;
+}
+
+.submit-button {
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: #26ac3d;
+  cursor: pointer;
+  width: 88%;
+  padding:12px 16px;
+}
+.submit-button:hover{
+  background: #045a12;
+}
+
+/*    form{
+    margin-top: 30px;
+  }
+   form .input-box{
+    height: 52px;
+    margin: 18px 0;
+  }
+    
+.input-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #C7BEBE; 
+    border-radius: 10px;
+     
+  } */
+  form h3{
+    color: #70707069;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+    
+  }
+
+
+
+     form .text h3 a{
+         color: #f44040;
+         text-decoration: none;
+       }
+
+       @media (max-width: 768px) {
+        .form-container{
+          max-width: 90%;}
+       }
+      
+       
+
